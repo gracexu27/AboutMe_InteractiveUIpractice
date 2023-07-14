@@ -27,7 +27,7 @@ struct ContentView: View {
                     .cornerRadius(15)
                 
                 Button("Click to Learn a Fact About Me!") {
-                    let facts = ["I have a pet cat named Mimi!", "I love to crochet!", "I have 2 sisters"]
+                    let facts = ["I have a pet cat named Mimi!", "I love to crochet!", "I have 2 sisters!"]
                     let randomFact = facts.randomElement() ?? ""
                     fact = randomFact
                 }
